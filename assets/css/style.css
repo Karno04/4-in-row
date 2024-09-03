@@ -210,6 +210,7 @@ h2 {
   width: 100%;
   padding: 1em 0;
   background-color: var(--main-light-color);
+  font-family: 'Kanit', cursive;
 }
 
 .section.active {
@@ -217,6 +218,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Kanit', cursive;
 }
 
 /* Modal overlay */
@@ -502,11 +504,13 @@ input[type="email"] {
 .yellow {
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
   background-color: var(--yellow-disc-color);
+  color: var(--yellow-disc-color);
 }
 
 .red {
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
   background-color: var(--red-disc-color);
+  color: var(--red-disc-color);
 }
 
 .notification {
@@ -613,6 +617,7 @@ input[type="email"] {
 
 .contact>.heading {
   margin-bottom: 1em;
+  font-family: 'Kanit', cursive;
 }
 
 .contact-text {
