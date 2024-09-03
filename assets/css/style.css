@@ -677,7 +677,8 @@ input[type="email"] {
 }
 
 .my-WhatsApp {
-    background-color: #25D366 !important; /* Force the background color */
+  background-color: var(--main-dark-color); !important;
+  color: var(--main-light-color); !important; /* Force the background color */
 }
 /*=============== Footer ===============*/
 
