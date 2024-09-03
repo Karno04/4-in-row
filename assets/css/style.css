@@ -46,7 +46,7 @@ footer {
 h1,
 h2,
 h3 {
-  font-family: 'Josefin Sans', cursive;
+  font-family: 'Kanit', cursive;
   text-transform: uppercase;
 }
 
@@ -619,7 +619,7 @@ input[type="email"] {
   margin-bottom: 1em;
   width: 95%;
   max-width: 48rem;
-  font-family: 'Kanit'
+ font-family: 'Kanit', cursive;
 }
 
 .contact-form {
