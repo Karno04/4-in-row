@@ -82,7 +82,7 @@ h2 {
 }
 
 .logo-img {
-  width: 92%;
+  width: 85%;
 }
 
 /* Responsive menu open/close icons */
@@ -676,10 +676,8 @@ input[type="email"] {
   margin-bottom: 1em;
 }
 
-/* Targeting the button using class */
 .my-WhatsApp {
-    background-color: var(--main-dark-color);
-  color: var(--main-light-color);
+    background-color: #25D366 !important; /* Force the background color */
 }
 /*=============== Footer ===============*/
 
