@@ -8,7 +8,7 @@
   <meta name="description"
     content="A website hosting a classic two-player strategy game called Connect Four. Play this quick and fun game against the computer or a friend/family member.">
   <meta name="keywords" content="connect four, online board game, strategy game">
-  <meta name="author" content="Sejung Kwak">
+  <meta name="author" content="Karno Das">
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png" />
@@ -28,14 +28,6 @@
             cursor: pointer !important; /* Pointer cursor on hover */
             transition: background-color 0.3s !important; /* Smooth transition */
         }
-
-       .game-container {
-            width: 700px;
-           height: 600px;
-          padding: 100px;
-           radius: 2rem;
-           height: 200px;
-       }
  </style>
 </head>
 
@@ -145,38 +137,7 @@
       </header>
       <!-- Game board will be injected using JS -->
       <!--My edition-->
-      <div class="game-container">
-      <div class="balls"></div>
-      <img src="./assets/images/board.png" alt="" class="board" />
-      <div class="columns">
-        <div class="column" data-column="0"></div>
-        <div class="column" data-column="1"></div>
-        <div class="column" data-column="2"></div>
-        <div class="column" data-column="3"></div>
-        <div class="column" data-column="4"></div>
-        <div class="column" data-column="5"></div>
-        <div class="column" data-column="6"></div>
-      </div>
-      <div class="game-over">
-        <div class="line"></div>
-      </div>
-      <div class="game-stats">
-        <div class="stats">
-          <div class="PLAYER"></div>
-          <div class="score">0 - 0</div>
-          <div class="OPPENENT"></div>
-        </div>
-        <div class="btns">
-          <div class="reset-score">
-            <button disabled>RESET SCORE</button>
-          </div>
-          <div class="play-again">
-            <button disabled>PLAY AGAIN</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="./game.js"></script>
+      
       <!--End of my edition-->
       <div class="board-grid" id="boardGrid"></div>
       <p class="notification" id="noGameText">Please start a game by opening the NEW GAME page and clicking the START
