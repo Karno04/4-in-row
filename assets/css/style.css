@@ -9,10 +9,8 @@
   --yellow-disc-color: #ffc736;
   --red-disc-color: #de0f3f;
   --overlay-color: #1c304a70;
-
   --my-color: #0000FF;
- 
-}
+ }
 
 /*--------------- Basic styling ---------------*/
 
@@ -483,7 +481,7 @@ input[type="email"] {
   height: 80vw;
   max-height: calc(33rem - 1.8em);
   padding: .5em;
-  background-color: var(--my-color)
+  background-color: var(--my-color);
 }
 
 .cell {
