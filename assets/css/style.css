@@ -494,7 +494,7 @@ input[type="email"] {
   height: 80vw;
   max-height: calc(33rem - 1.8em);
   padding: .5em;
-  background-color: var(--main-dark-color);
+  background-color: #0000FF;
 }
 
 .cell {
