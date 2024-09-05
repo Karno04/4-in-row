@@ -463,6 +463,18 @@ input[type="email"] {
   margin: .5em auto;
   text-align: center;
 }
+/*--------------- My Edition ---------------*/
+
+.game-container {
+  position: relative;
+  padding-top: var(--game-container-padding);
+  background-color: var(--game-container-bg-color);
+  border-top-left-radius: var(--game-container-radius);
+  border-top-right-radius: var(--game-container-radius);
+
+  margin: 4rem auto;
+}
+
 
 .board-grid {
   display: grid;
