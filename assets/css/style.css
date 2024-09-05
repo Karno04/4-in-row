@@ -481,10 +481,10 @@ input[type="email"] {
 
 .game-container {
   position: relative;
-  padding-top: var(--game-container-padding);
-  background-color: var(--game-container-bg-color);
-  border-top-left-radius: var(--game-container-radius);
-  border-top-right-radius: var(--game-container-radius);
+  padding-top: 100px;
+  background-color: #545d66;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
 
   margin: 4rem auto;
 }
