@@ -479,16 +479,6 @@ input[type="email"] {
 }
 /*--------------- My Edition ---------------*/
 
-.game-container {
-  position: relative;
-  padding-top: 100px;
-  background-color: #545d66;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
-
-  margin: 4rem auto;
-}
-
 .board-grid {
   display: grid;
   justify-items: center;
